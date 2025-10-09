@@ -1,0 +1,142 @@
+﻿################################################################################
+# .NET / Visual Studio .gitignore
+################################################################################
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Tye
+.tye/
+
+# Visual Studio 2022+
+.vs/
+.vscode/
+
+# Azure
+*.azurePubxml
+*.PublishSettings
+App_Data/
+
+# Auto-generated files
+Generated_Code/
+
+# SQL / EF
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+*.bak
+
+# Configuration
+secrets.json
+appsettings.*.local.json
+appsettings.Development.json
+appsettings.Local.json
+local.settings.json
+
+# Logs and diagnostic data
+*.log
+*.tlog
+*.etl
+*.nlog
+*.csv
+*.svclog
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.swp
+*.swn
+*.swo
+*.orig
+*.psess
+*.vsp
+*.vspscc
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.packages/
+*.nuget.props
+*.nuget.targets
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+*.opencover.xml
+
+# Tooling
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.DotCover
+*.sonarqube/
+.idea/
+
+# Docker
+docker-compose.override.yml
+docker-compose*.yml
+*.dockerfile
+*.container
+*.tar
+
+# Publish
+publish/
+out/
+dist/
+wwwroot/lib/
+
+# Mac/Linux
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Application Insights
+ApplicationInsights.config
+
+# Other
+*.bak
+*.old
+*.backup
+
+################################################################################
+# Custom project-specific ignores
+################################################################################
+
+# Ignore generated build output
+MedicalReports/bin/
+MedicalReports/obj/
+MedicalData/bin/
+MedicalData/obj/
+
+# Ignore local SQLite / cache / telemetry
+*.sqlite
+*.db
+*.cache/
